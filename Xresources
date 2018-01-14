@@ -1,0 +1,49 @@
+#############################################################################
+#/\ \ /\ \                                                                  #
+#\ `\`\/'/'  _ __    __    ____    ___   __  __  _ __   ___     __    ____  #
+# `\/ > <   /\`'__\/'__`\ /',__\  / __`\/\ \/\ \/\`'__\/'___\ /'__`\ /',__\ #
+#    \/'/\`\\ \ \//\  __//\__, `\/\ \L\ \ \ \_\ \ \ \//\ \__//\  __//\__, `\#
+#    /\_\\ \_\ \_\\ \____\/\____/\ \____/\ \____/\ \_\\ \____\ \____\/\____/#
+#    \/_/ \/_/\/_/ \/____/\/___/  \/___/  \/___/  \/_/ \/____/\/____/\/___/ #
+#############################################################################                                                                           
+
+! Colors
+#define black       #2F2F2F
+#define gray        #FFFFFF
+#define red         #8BC6A8
+#define green       #8BC6A8
+#define yellow      #EAAEAE
+#define blue        #58698C
+#define magenta     #FFFFFF
+#define cyan        #579B78
+
+! Shades
+#define d_gray      #525C67
+#define white       #E0DEDE
+#define l_red       #8BC6A8
+#define l_green     #EFB885
+#define l_yellow    #8BC6A8
+#define l_blue      #6D8FA9
+#define l_magenta   #579B78
+#define l_cyan      #EFB885
+
+*.foreground:   white
+*.background:   black
+
+*.color0:       black
+*.color1:       red
+*.color2:       green
+*.color3:       yellow
+*.color4:       blue
+*.color5:       magenta
+*.color6:       cyan
+*.color7:       white
+
+*.color8:       d_gray
+*.color9:       l_red
+*.color10:      l_green
+*.color11:      l_yellow
+*.color12:      l_blue
+*.color13:      l_magenta
+*.color14:      l_cyan
+*.color15:      l_gray
