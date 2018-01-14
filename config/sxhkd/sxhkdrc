@@ -5,7 +5,7 @@ alt + Return
 
 #Rofi
 alt + space
-    rofi -show run -matching fuzzy -font "terminus (ttf) 12" -lines 8 -click-to-exit rofi -color-normal "#1B1C1F,#EEF6F6,#1B1C1F,#1B1C1F,#6D8EC1"  -color-window "#1B1C1F,#1B1C1F,#1B1C1F" -hide-scrollbar -width 420 -padding 16
+	rofi -show run -matching fuzzy -font "terminus (ttf) 12" -lines 8 -click-to-exit rofi -color-normal "#1B1C1F,#EEF6F6,#1B1C1F,#1B1C1F,#8BC6A8"  -color-window "#1B1C1F,#1B1C1F,#1B1C1F" -hide-scrollbar -width 420 -padding 16
 
 ##Reload config
 alt + shift + r
