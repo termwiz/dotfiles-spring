@@ -38,11 +38,11 @@ tc="${rc}${bc}${c2}"    # third color
 ## OUTPUT
 cat <<EOF
 
-${fc}        .;:;:.          ${nc}termwiz@chroot
-${fc}        ::;:;:          ${fc}OS${fc}       ${ic}Void
-${sc}      _ ${fc}';:;;'     ${fc}     Kernel ${fc}  ${ic}Linux 3.18
-${sc}      >'. ||  _         ${fc}Pkgs ${fc}    ${ic}724
-${sc}       '>\||.'<         ${fc}WM ${fc}      ${ic}bspwm
+${fc}        .;:;:.          ${nc}${USER}${ic}@${nc}${hostname}
+${fc}        ::;:;:          ${fc}OS${fc}       ${ic}${os}
+${sc}      _ ${fc}';:;;'     ${fc}     Kernel ${fc}  ${ic}${kernel}
+${sc}      >'. ||  _         ${fc}Pkgs ${fc}    ${ic}${packages}
+${sc}       '>\||.'<         ${fc}WM ${fc}      ${ic}${WM}
 ${sc}        '>|/ <'         ${fc}SHELL ${fc}   ${ic}${shell}
 ${sc}         '||/'${rc}
 EOF
